@@ -7,7 +7,7 @@ export function FormularioActualizar(){
             <div classNameName="col -4">
                 <div classNameName="tab-content">
                     <div classNameName="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-                        <form  className="form">
+                        <form  className="form1">
                             <Titulo/>
                             <br/>
                             <h2>Gestión de paquetes-Actualización de órdenes</h2>
@@ -40,33 +40,51 @@ export function FormularioActualizar(){
                             </div>
                             <div className="form-outline mb-4">
                                 
-                                <input type="text" id="loginName" className="form-control" placeholder="Dirección de recogida"/> 
+                                <input type="text"
+                                       id="loginName" 
+                                       className="entrada"
+                                       placeholder="Dirección de recogida"/> 
                             </div>
                         
                             <div className="form-outline mb-4">
-                                <input type="text" id="loginName" className="form-control"placeholder="Ciudad de recogida" />
+                                <input type="text" 
+                                       id="loginName"
+                                       className="entrada"
+                                       placeholder="Ciudad de recogida" />
                             </div>
                             
                             <div className="form-outline mb-4">
-                                <input type="text" id="loginPassword" className="form-control" placeholder="Nombre destinatario" />
+                                <input type="text" 
+                                       id="loginPassword"
+                                       className="entrada"
+                                       placeholder="Nombre destinatario" />
                             </div>
 
                             <div className="form-outline mb-4">
-                                <input type="text" id="loginName" className="form-control"placeholder="Cédula/Nit destinatario"/>
+                                <input type="text"
+                                       id="loginName"
+                                       className="entrada"
+                                       placeholder="Cédula/Nit destinatario"/>
                             </div>
                             <div className="form-outline mb-4">
                                 
-                                <input type="text" id="loginName" className="form-control" placeholder="Dirección de entrega"/> 
+                                <input type="text"
+                                       id="loginName"
+                                       className="entrada"
+                                       placeholder="Dirección de entrega"/> 
                             </div>
                         
                             <div className="form-outline mb-4">
-                                <input type="text" id="loginName" className="form-control"placeholder="Ciudad de entrega" />
+                                <input type="text" 
+                                       id="loginName"
+                                       className="entrada"
+                                       placeholder="Ciudad de entrega" />
                             </div>
                             <div className="row mb-4">
                                 <div className="col-md-6 d-flex justify-content-center"></div>
                             </div>
                     
-                            <button type="submit" className="btn btn-primary btn-block mb-4">Actualizar Orden</button>
+                            <button type="submit" className="btn btn-primary btn-block mb-4 btn-login">Actualizar Orden</button>
                         </form>
                         
                         

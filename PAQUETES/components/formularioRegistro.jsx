@@ -26,7 +26,7 @@ export function FormularioRegistro(){
                 <input 
                     type="text" 
                     id="loginName" 
-                    classNameName="form-control" 
+                    className="entrada" 
                     name ="nombre"
                     placeholder="Nombres"
                     />
@@ -38,7 +38,7 @@ export function FormularioRegistro(){
                 <input 
                     type="text" 
                     id="loginName" 
-                    classNameName="form-control" 
+                    className="entrada" 
                     name ="usuario"
                     placeholder="Usuario"
                 />
@@ -49,7 +49,7 @@ export function FormularioRegistro(){
                 <input 
                 type="password" 
                 id="loginPassword" 
-                classNameName="form-control"
+                className="entrada"
                 placeholder="Contraseña"
             />
                 
@@ -58,7 +58,7 @@ export function FormularioRegistro(){
                 <input 
                     type="email" 
                     id="loginName" 
-                    classNameName="form-control" 
+                    className="entrada" 
                     name ="email"
                     placeholder="Correo"
                 />
@@ -77,7 +77,7 @@ export function FormularioRegistro(){
             </div>
 
             
-            <button type="submit" className="btn btn-primary btn-block mb-4">Registrarse</button>
+            <button type="submit" className="btn btn-primary btn-block mb-4 btn-login">Registrarse</button>
 
             
         </form>   

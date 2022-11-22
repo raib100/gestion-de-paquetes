@@ -4,9 +4,12 @@ export function FormularioLogin(){
 
     return(
                
-        <form>
+        <form className="form1">
+            
+                
             <Titulo/>
             <br/><br/>
+            
             <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
@@ -24,7 +27,7 @@ export function FormularioLogin(){
                     type="text" 
                     id="loginName" 
                     name="usuario"
-                    className="form-control" 
+                    className="entrada" 
                     placeholder="Usuario"
                     />
                     
@@ -36,7 +39,7 @@ export function FormularioLogin(){
                 type="password" 
                 id="loginPassword" 
                 name="contraseña"
-                className="form-control"
+                className="entrada"
                 placeholder="Contraseña"
                 />
                 
@@ -52,10 +55,12 @@ export function FormularioLogin(){
                 
             </div>
             <br/>
-            <button type="submit" className="btn btn-primary btn-block mb-4">Login</button>
-            
+            <div className="cont-boton">
+                <button type="submit" className="btn btn-primary btn-block mb-4 btn-login">Login</button>
+            </div>
             
         </form>   
+        
               
             
             
