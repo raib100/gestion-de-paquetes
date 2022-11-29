@@ -1,7 +1,7 @@
 #root {
   width: 800px;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 1em auto 2em;
   box-sizing:border-box;
   text-align: center;
 }
@@ -13,13 +13,11 @@
 .ent-dim{
  margin-left: 22px;
 }
-.form1{
+.formulario{
   border-radius: 19px;
-  border: 10px;
-  border-color: black;
+  
+  height: 550px;
   background-color: rgba(244, 234, 234, 0.903);
-  box-sizing: content-box border-box;
- 
 }
 body{
   background-color: darkturquoise;
@@ -48,9 +46,45 @@ body{
 }
 .entrada{
   width: 450px;
+  margin-top: 8px;
 }
 .btn-login{
   width: 400px;
-  margin: auto;
+  margin: 2em auto 1em;
+}
+.mi-borde{
+  border-style: solid;
+  border-radius: 19px;
+  border-width: 1px;
+}
+.mis-entradas{
+  padding-top: 2px auto 1px;
+}
+
+.btn-enviar{
+  margin-top: 0;
+  margin-bottom: 10px;
   
+}
+.estado{
+  margin-top: 0;
+  margin-bottom: 1px;
+
+}
+.fecha{
+  padding-top:1px;
+  padding-bottom: 0;
+
+}
+#loginName{
+  margin-top: 2px auto 2px;
+}
+.dimension{
+  height: 20px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.dim-largo{
+  margin-left: 0px;
 }

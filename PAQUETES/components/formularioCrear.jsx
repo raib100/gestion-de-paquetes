@@ -1,88 +1,30 @@
 import React from "react";
 import {Titulo} from '/components/titulo'
+import {Fecha} from '/components/fecha'
+import { Dimensiones } from "/components/dimensiones";
+import {EntradasOrdenes} from "/components/entradasOrdenes";
+import {Boton} from "/components/boton";
 export function FormularioCrear(){
     return(
-        <div classNameName ="row">
-            
-            <div classNameName="col -4"></div>
-            <div classNameName="col -4">
-                <div classNameName="tab-content">
-                    <div classNameName="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-                        <form  className="form1">
+            <>
+                <div className="mi-borde">
+                    <form  className="formulario">
                         <Titulo/>
-                            <br/>
-                            <h2>Gestión de paquetes-Registro órdenes</h2>
-                            <br/>
-                        <div className="form-outline mb-4">
-                                <label forHtmltml="start">Fecha:</label>
-                                <input type="date" id="start" name="trip-start" value="2022-11-22" min="2018-01-01" max="2018-12-31"/>
-                                <label forHtml="start"className="hora"> Hora: </label>
-                                <input type="time" id="start" name="trip-start" value="08:00"min="12:00" max="18:00"/>
-                            </div>
-                            <div className="form-outline mb-4">
-                                <label forHtml="floatingInput" className="ent-dim">Largo</label>
-                                <input type="text" className="dimension" name="largo"/>
-                                <label forHtml="floatingInput"className="ent-dim">Ancho</label>
-                                <input type="text" className="dimension" name="ancho"/>
-                                <label forHtml="floatingInput"className="ent-dim">Alto</label>
-                                <input type="text" className="dimension" name="alto"/>
-                                <label forHtml="floatingInput"className="ent-dim">Peso</label>
-                                <input type="text" className="dimension" name="peso"/>
-                            </div>
-                            <div className="form-outline mb-4">
-                                
-                                <input type="text"
-                                       id="loginName"
-                                       className="entrada"
-                                       placeholder="Dirección de recogida"/> 
-                            </div>
+                        <h4>Gestión de paquetes-Crear Orden</h4>
                         
-                            <div className="form-outline mb-4">
-                                <input type="text" 
-                                       id="loginName" 
-                                       className="entrada"
-                                       placeholder="Ciudad de recogida" />
-                            </div>
-                            
-                            <div className="form-outline mb-4">
-                                <input type="text"
-                                       id="loginPassword"
-                                       className="entrada"
-                                       placeholder="Nombre destinatario" />
-                            </div>
-
-                            <div className="form-outline mb-4">
-                                <input type="text" 
-                                       id="loginName"
-                                       className="entrada"
-                                       placeholder="Cédula/Nit destinatario"/>
-                            </div>
-                            <div className="form-outline mb-4">
-                                
-                                <input type="text"
-                                       id="loginName"
-                                       className="entrada"
-                                       placeholder="Dirección de entrega"/> 
-                            </div>
+                        <Fecha/>
+                        <Dimensiones/>
+                        <EntradasOrdenes/>
+                        <Boton/>
                         
-                            <div className="form-outline mb-4">
-                                <input type="text"
-                                       id="loginName"
-                                       className="entrada"
-                                       placeholder="Ciudad de entrega" />
-                            </div>
-                            <div className="row mb-4">
-                                <div className="col-md-6 d-flex justify-content-center"></div>
-                            </div>
-                    
-                            <button type="submit" className="btn btn-primary btn-block mb-4 btn-login">Crear Orden</button>
-                        </form>
-                        
-                        
-                    </div>
+                       
+                    </form>
                 </div>
-            </div>
-            <div classNameName="col -4"></div>
-        </div>
+                
+            </>
+               
+           
+            
+       
     )
 }
